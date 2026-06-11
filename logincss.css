@@ -51,7 +51,7 @@ body{
     border-color: rgb(137, 137, 147);
 }
 input::placeholder{
-    margin-left: 30px;
+    margin-left: 3%;
     font-size: 20px;
 }
 .btn{
@@ -76,5 +76,17 @@ input{
         width: 100%;
         height: auto;
     }
+    .left-con{
+        min-height:500px;
+    }
+}
+.separator{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    width:73%;
+}
 
+.separator hr{
+    flex:1;
 }
